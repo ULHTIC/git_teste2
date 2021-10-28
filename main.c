@@ -14,6 +14,8 @@ int main(int argc, char *argv[])
 	puts(argv[2]);
 	puts(argv[3]);
 
+	puts("Vou tentar abrir os ficheiros");
+
 
 	if (strcmp(argv[2], "r") == 0)
 		fp = fopen(argv[1], "r");
