@@ -25,6 +25,7 @@ int main(int argc, char *argv[])
 	else
 		fp = fopen(argv[1], "rb");
 
+	puts("DEBUG... abri o ficheiro");
 
 	if (fp == NULL)
 	{
